@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBA Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to MOBA Game</h1>
+        <div id="menu">
+            <button id="startGame">Start Game</button>
+            <button id="settings">Settings</button>
+            <button id="exit">Exit</button>
+        </div>
+
+        <div id="characterSelection" class="hidden">
+            <h2>Select Your Hero</h2>
+            <div id="heroes">
+                <button class="hero" data-hero="Warrior">Warrior</button>
+                <button class="hero" data-hero="Mage">Mage</button>
+                <button class="hero" data-hero="Archer">Archer</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
